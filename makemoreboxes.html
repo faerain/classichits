@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Campfire Master</title>
+		<meta name="Campfire Master" content="Campfire Master">
+		<!--Calling on aframes JS-->
+		<script src="https://aframe.io/releases/0.3.0/aframe.js"></script>
+		<!--Calling on the Altspace SDK js-->
+		<script src="https://sdk.altvr.com/libs/altspace.js/2.6.2/altspace.min.js"></script>
+	</head>
+	<body>
+		<!-- Starting the scene, defining the alignment of the scene to the middle of the boundary box and be a full space app-->
+		<a-scene altspace="verticalAlign: middle; fullspace: true" vr-mode-ui="enabled: false">
+			<!--Make another boundary box and load Scene-->
+			<!--<a-entity position="0 0 0" rotation="0 0 0" scale="5 5 5" n-layout-browser="url:http://marchecity.com:8081/;isEnclosure:true;"></a-entity>
+			<!--Make another boundary box and load Video Jukebox-->
+			<a-entity position="4.3 -1.4 -11.6" rotation="0 0 0" scale="5 5 5" n-layout-browser="url:https://video-jukebox.firebaseapp.com/index.html?categoryUrl=https%3A%2F%2Faccount.altvr.com%2Fapi%2Fpublic%2Fusers%2F820629041114514394%2Fvideo_jukebox_category.json&room=;isEnclosure:true;"></a-entity>
+			<!--Ending the scene--> 
+		</a-scene>
+	</body>
+</html>
+© 2018 GitHub, Inc.
